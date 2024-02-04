@@ -2,7 +2,7 @@ url: https://benwjcooper.github.io # the base hostname & protocol for your site 
 #theme: jekyll-theme-minima
 theme: minima
 title: "The Book of Wisdom-ish"
-
+footer: null
 defaults:
     scope:
       path: "" # an empty string here means all files in the project
