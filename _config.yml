@@ -1,6 +1,7 @@
 url: https://benwjcooper.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 #theme: jekyll-theme-minima
 theme: minima
+title: "The Book of Wisdom-ish"
 
 defaults:
     scope:
