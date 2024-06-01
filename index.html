@@ -23,16 +23,16 @@
         .central-column {
             min-width: 1000px;
             /*width: 80%;*/
-            /*background-color: #CBC3E3;*/
+            background-color: white;
             /*background: linear-gradient(to right, #CBC3E3, #f2e6ff);*/
-            background: linear-gradient(to right, #00cccc, #e6ffff);
+            /*background: linear-gradient(to right, #00cccc, #e6ffff);*/
             /*padding: 20px;*/
         }
         .heading-section {
             /*background: linear-gradient(to right, #CBC3E3, #f2e6ff);*/
-            padding: 30px;
-	        margin: 0px;
-            color: black;
+            padding: 0px;
+	    margin: 0px;
+            /*color: black;*/
             text-align: center;
             position: relative;
             /*border-bottom: 2px solid lightgrey;*/
@@ -46,17 +46,19 @@
             align-items: center;
         }
         .about-section .text {
-            flex: 1;
+	    width: 60%;
+            /*flex: 1;*/
         }
 	    .about-section .ptext {
             flex: 1;
-	        text-indent: 3%;
+	    text-indent: 4%;
             margin-left: 10%;
             margin-right: 10%;
-	        font-style: italic;
+	    font-style: italic;
         }
         .about-section .image {
-            flex: 1;
+            /*flex: 1;*/
+	    width: 40%;
             display: flex;
             justify-content: center;
         }
@@ -66,14 +68,26 @@
             height: 150px;
         }
         .separator {
-            height: 2px;
+            height: 3px;
             background-color: lightgrey;
-            margin-right: 15%;
-            margin-left: 15%;
+            margin-right: 10%;
+            margin-left: 10%;
+        }
+        .separator2 {
+ 	    margin-top: 20px;
+	    margin-bottom: 20px;
+	    /*justify-content: center;*/
+  	    display: block;
+            margin-left: 20%;
+
+
         }
         .amazon-section {
             display: flex;
             align-items: center;  
+        }
+        .amazon-section .text {
+	    width: 60%; 
         }
         .amazon-section .image {
             flex: 1;
@@ -83,16 +97,17 @@
         .amazon-section .image img {
             width: 200px;
             /*height: 150px;*/
-            margin-left: 10%;
-            margin-right: 40%;
+            margin-left: 20%;
+            margin-right: 20%;
         }
         .amazon-section .ptext1 {
             flex: 1;
-	        text-indent: 3%;
+	    text-indent: 4%;
             margin-left: 10%;
             margin-right: 10%;
         }
         .amazon-section .ptext2 {
+	    text-align: center;  
             flex: 1;
             margin-left: 10%;
             margin-right: 10%;
@@ -103,28 +118,30 @@
     <div class="container">
         <div class="side-column"></div>
         <div class="central-column">
-            <div class="heading-section">
-                <h1>Home of children's author H Curtis</h1>
+            <div >
+                <img src="https://github.com/BenWJCooper/benwjcooper.github.io/blob/main/assets/css/Banner.svg" alt="There should be a beautiful banner here... ">
             </div>
-            <div class="separator"></div>
+            <!--<div class="separator"></div>-->
             <div class="about-section">
                 <div class="text">
-                    <h2>About H Curtis...</h2>
+                    <h2 align="center">About H Curtis...</h2>
                     <p class="ptext">Holly believes in writing as self-therapy, as well as fun. She loves the philosophical in everything and enjoys many different genres, especially stories with a bit of everything. She's often found sitting next to a dog, feverishly scribbling or typing words.</p>
                 </div>
                 <div class="image">
                     <img src="https://raw.githubusercontent.com/BenWJCooper/benwjcooper.github.io/main/assets/css/author_1.jpg" alt="Where's H Curtis?">
                 </div>
             </div>
-            <div class="separator"></div>
+            <div class="separator2"> 
+		<img src="https://github.com/BenWJCooper/benwjcooper.github.io/blob/main/assets/css/Separator2.svg" alt="Where's the seperator image? :(" width=80%>
+	    </div>
             <div class="amazon-section">
                 <div class="text">
-                    <h2>The Book of Wisdom<i>-ish</i></h2>
+                    <h2 align="center">The Book of Wisdom<i>-ish</i></h2>
                     <p class="ptext2"><b>Adventure begins with a book... And an A.</b></p>
                     <p class="ptext1"><i>The Book of Wisdom-ish</i> is where short stories meet a novel, set in the faery tale kingdom of Hearts Melting. The tales are based on well-known sayings, held together by one girl’s investigation into the mysterious holes in the sky. And scones.</p>
-                    <p class="ptext2">Wielding only a potato masher, twelve-year-old Mary must deal with a demon (proving a book should be judged by its cover). Then she notices a peculiar sky-hole…</p>
-                    <p class="ptext2">Grass-eating faery Draxen demonstrates his friendship, Cook is challenged by the proof of the puddings and two-headed giant Crackncrag struggles to be understood. Cities made of glass and myth-magical creatures also feature. As the power behind the sky-holes increases its grip on the land, a dark purpose is revealed. With Mary leading the charge, all must unite to save their peculiar world.</p>
-                    <p class="ptext2"><i>The Book of Wisdom-ish</i> is available to order from Amazon or on request at most bookshops. For For ages 9+.</p>
+                    <p class="ptext1">Wielding only a potato masher, twelve-year-old Mary must deal with a demon (proving a book should be judged by its cover). Then she notices a peculiar sky-hole…</p>
+                    <p class="ptext1">Grass-eating faery Draxen demonstrates his friendship, Cook is challenged by the proof of the puddings and two-headed giant Crackncrag struggles to be understood. Cities made of glass and myth-magical creatures also feature. As the power behind the sky-holes increases its grip on the land, a dark purpose is revealed. With Mary leading the charge, all must unite to save their peculiar world.</p>
+                    <p class="ptext1"><i>The Book of Wisdom-ish</i> is available to order from Amazon or on request at most bookshops. For For ages 9+.</p>
                     <!-- Embed Amazon Product here 
                     <iframe src="https://www.amazon.com/dp/B08J5F3G18" width="100%" height="300"></iframe>
                     -->
@@ -133,9 +150,11 @@
                     <img src="https://raw.githubusercontent.com/BenWJCooper/benwjcooper.github.io/main/assets/css/BookCoverFront.png" alt="Book cover should be here!">
                 </div>
             </div>
-            <div class="separator"></div>
+            <div class="separator2"> 
+		<img src="separator2.svg" alt="Placeholder Image" width=80%>
+	    </div>
             <div class="twitter-section">
-                <h2>Twitter</h2>
+                <h2 align="center">Twitter</h2>
                 <!-- Embed Twitter Feed here 
                 <a class="twitter-timeline" href="https://x.com/HollyCwrites">Tweets by TwitterDev</a> 
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
