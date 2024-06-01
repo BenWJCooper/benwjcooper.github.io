@@ -25,8 +25,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pc"
      inkscape:zoom="1.3682516"
-     inkscape:cx="492.59946"
-     inkscape:cy="279.55385"
+     inkscape:cx="492.23403"
+     inkscape:cy="280.28471"
      inkscape:window-width="2560"
      inkscape:window-height="1369"
      inkscape:window-x="-8"
@@ -78,8 +78,8 @@
     <rect
        x="206.70439"
        y="57.417889"
-       width="754.335"
-       height="131.36688"
+       width="843.49978"
+       height="140.13719"
        id="rect2" />
     <filter
        inkscape:collect="always"
@@ -851,18 +851,20 @@
      xml:space="preserve"
      transform="matrix(0.26458333,0,0,0.26458333,-20.297462,6.2743132)"
      id="text2"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Californian FB';-inkscape-font-specification:'Californian FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#000000;stroke:#000000;stroke-width:1.00157;stroke-dasharray:none;stroke-opacity:1"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Californian FB';-inkscape-font-specification:'Californian FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#000000;stroke:#000000;stroke-width:1.008;stroke-dasharray:none;stroke-opacity:1"><tspan
        x="206.70508"
-       y="90.555785"
-       id="tspan4"><tspan
-         style="font-size:37.3333px;font-family:Serif;-inkscape-font-specification:Serif;fill:#e1ad08"
-         id="tspan3">Welcome to the home of children's author  
+       y="101.60178"
+       id="tspan6"><tspan
+         style="font-size:37.3333px"
+         id="tspan3">Welcome to the home of children's author </tspan><tspan
+         style="font-size:49.7778px;font-family:Serif;-inkscape-font-specification:'Serif, Normal';fill:#e1ad08"
+         id="tspan5"> 
 </tspan></tspan><tspan
        x="206.70508"
-       y="170.36032"
-       id="tspan7"><tspan
-         style="font-size:37.3333px;font-family:Serif;-inkscape-font-specification:Serif;fill:#e1ad08"
-         id="tspan5">                                                  </tspan><tspan
-         style="font-size:74.6667px;font-family:Serif;-inkscape-font-specification:Serif;fill:#e1ad08"
-         id="tspan6">H. Curtis</tspan></tspan></text>
+       y="176.17376"
+       id="tspan9"><tspan
+         style="font-size:49.7778px;font-family:Serif;-inkscape-font-specification:'Serif, Normal';fill:#e1ad08"
+         id="tspan7">                                      </tspan><tspan
+         style="font-weight:bold;font-size:63.9999px;font-family:Serif;-inkscape-font-specification:'Serif Bold'"
+         id="tspan8">H. Curtis</tspan></tspan></text>
 </svg>
